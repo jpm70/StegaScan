@@ -1,91 +1,84 @@
 body {
-    font-family: 'Segoe UI', Arial, sans-serif;
-    background-color: #0d1117;
-    color: #c9d1d9;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    margin: 0;
-    line-height: 1.6;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #0d1117;
+    color: #c9d1d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    line-height: 1.6;
 }
 
 .container {
-    background-color: #161b22;
-    padding: 40px;
-    border-radius: 12px;
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6);
-    width: 90%;
-    max-width: 800px;
-    text-align: center;
-}
-
-/* Regla para el logo */
-.logo {
-    width: 100px;
-    height: auto;
-    margin-bottom: 20px;
+    background-color: #161b22;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6);
+    width: 90%;
+    max-width: 800px;
+    text-align: center;
 }
 
 h1 {
-    color: #58a6ff;
-    border-bottom: 2px solid #30363d;
-    padding-bottom: 15px;
-    margin-bottom: 20px;
+    color: #58a6ff;
+    border-bottom: 2px solid #30363d;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 p {
-    color: #8b949e;
+    color: #8b949e;
 }
 
 .input-section {
-    margin-top: 20px;
+    margin-top: 20px;
 }
 
 #fileInput {
-    display: none;
+    display: none;
 }
 
 .custom-file-upload {
-    background-color: #238636;
-    color: #fff;
-    padding: 12px 20px;
-    border-radius: 6px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+    background-color: #238636;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 .custom-file-upload:hover {
-    background-color: #2ea043;
+    background-color: #2ea043;
 }
 
 #fileName {
-    margin-left: 15px;
-    font-style: italic;
-    color: #8b949e;
+    margin-left: 15px;
+    font-style: italic;
+    color: #8b949e;
 }
 
 .results-section {
-    margin-top: 30px;
-    text-align: left;
+    margin-top: 30px;
+    text-align: left;
 }
 
 .results-section h2 {
-    color: #58a6ff;
-    border-bottom: 1px solid #30363d;
-    padding-bottom: 10px;
+    color: #58a6ff;
+    border-bottom: 1px solid #30363d;
+    padding-bottom: 10px;
 }
 
 .hidden {
-    display: none;
+    display: none;
 }
 
 #metadataOutput {
-    background-color: #010409;
-    padding: 15px;
-    border-radius: 8px;
-    white-space: pre-wrap;
-    word-break: break-all; 
-    font-family: monospace;
-    font-size: 0.9em;
+    background-color: #010409;
+    padding: 15px;
+    border-radius: 8px;
+    white-space: pre-wrap;
+    word-break: break-all;
+    font-family: monospace;
+    font-size: 0.9em;
 }
